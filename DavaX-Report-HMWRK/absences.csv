@@ -1,0 +1,9 @@
+absence_id,employee_id,employee_name,absence_type,start_date,end_date,num_hours
+A001,E001,Ion Popescu,Vacation,2025-05-20,2025-05-24,40
+A002,E003,Alexandru Georgescu,Sick Leave,2025-06-10,2025-06-12,24
+A003,E005,Radu Serban,Personal Leave,2025-04-15,2025-04-15,8
+A004,E004,Elena Vasilescu,Vacation,2025-06-01,2025-06-05,40
+A005,E002,Maria Ionescu,Parental Leave,2025-03-01,2025-03-31,168
+A006,E006,Cristina Dumitru,Sick Leave,2025-02-10,2025-02-11,16
+A007,E001,Ion Popescu,Training,2025-06-25,2025-06-25,8
+A008,E003,Alexandru Georgescu,Vacation,2025-07-10,2025-07-20,88

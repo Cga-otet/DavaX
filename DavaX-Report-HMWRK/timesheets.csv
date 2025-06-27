@@ -1,0 +1,10 @@
+timesheet_id,employee_id,nume,project_id,project_name,project_activity,num_hours
+T001,E001,Ion Popescu,P001,Playroom Booking,Backend Development,8
+T002,E002,Maria Ionescu,P002,Customer Portal Upgrade,Frontend Development,6
+T003,E001,Ion Popescu,P001,Playroom Booking,Code Review,2
+T004,E003,Alexandru Georgescu,P003,Mobile Banking App,QA Testing,7
+T005,E004,Elena Vasilescu,P004,Data Migration,ETL Scripts,8
+T006,E005,Radu Serban,P005,AI Chatbot,Model Training,5
+T007,E002,Maria Ionescu,P002,Customer Portal Upgrade,UX Design,2
+T008,E003,Alexandru Georgescu,P003,Mobile Banking App,Regression Testing,3
+T009,E006,Cristina Dumitru,P002,AI Chatbot,Model Training,5

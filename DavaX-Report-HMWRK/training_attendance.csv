@@ -1,0 +1,7 @@
+record_id,employee_id,employee_name,training_session,training_start_date,training_end_date,time_joined_trained,time_left_training
+R001,E001,Ion Popescu,Advanced Python,2025-06-01,2025-06-01,09:05,17:00
+R002,E002,Maria Ionescu,Agile Scrum Overview,2025-05-15,2025-05-15,08:50,16:30
+R003,E005,Radu Serban,Machine Learning Fundamentals,2025-04-20,2025-04-21,09:10,17:10
+R004,E004,Elena Vasilescu,Data Engineering Best Practices,2025-06-03,2025-06-04,09:00,17:00
+R005,E003,Alexandru Georgescu,Mobile App Security,2025-06-18,2025-06-18,09:15,17:05
+R006,E006,Cristina Dumitru,Cloud Architecture,2025-05-07,2025-05-07,09:00,16:45

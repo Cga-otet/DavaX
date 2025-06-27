@@ -1,0 +1,6 @@
+absence_id,employee_id,employee_name,absence_reason,start_date,end_date,num_hours
+EA001,E001,Ion Popescu,University Exam Session,2025-01-15,2025-01-16,16
+EA002,E002,Maria Ionescu,Certification Exam,2025-02-05,2025-02-06,16
+EA003,E004,Elena Vasilescu,Driving License Exam,2025-03-12,2025-03-12,8
+EA004,E005,Radu Serban,PhD Defense Preparation,2025-06-24,2025-06-24,8
+EA005,E003,Alexandru Georgescu,Accounting Exam,2025-05-10,2025-05-11,16

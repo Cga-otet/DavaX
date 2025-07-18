@@ -86,6 +86,23 @@ def factorial_route():
         'result': result
     })
 
+@app.route('/log', methods=['GET'])
+def logs():
+    """Retrieve database logs of API usage"""
+    limit =  request.args.get('limit', default=50, type=int)
+
+    with sqlite3.connect(DB_PATH, timeout=5) as conn:
+        conn.row_factory = sqlite3.Row
+        cursor = conn.cursor()
+        sql_string = 'SELECT * FROM api_log ORDER BY timestamp DESC '
+        if limit:
+            sql_string += 'LIMIT ?'
+            cursor.execute(sql_string, (limit,))
+        else:
+            cursor.execute(sql_string)
+        rows = [dict(r) for r in cursor.fetchall()]
+    return jsonify(rows)
+
 if __name__ == "__main__":
     init_db()
     app.run(debug=True)

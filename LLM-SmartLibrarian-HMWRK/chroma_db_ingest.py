@@ -1,7 +1,3 @@
-"""
-Build a ChromaDB collection from data/book_summaries.md using OpenAI embeddings.
-"""
-
 import os, re, uuid, json, pathlib
 from typing import List, Dict
 import chromadb
@@ -50,7 +46,6 @@ def main():
             coll.delete(ids=existing["ids"])
     except Exception:
         pass
-    # Upsert
     texts = [i["content"] for i in items]
     titles = [i["title"] for i in items]
     embeddings = embed_texts(client, texts)
